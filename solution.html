@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Anti-Robo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-xl-10 d-flex align-items-center">
+          <h1 class="logo mr-auto"><a href="index.html">Anti-Robo</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>-->
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li ><a href="index.html">Accueil</a></li>
+              <li><a href="blog.html">Articles</a></li>
+              <li class="drop-down active"><a href="solution.html">Solutions</a>
+                <ul>
+                  <li><a href="#Nessus">Nessus</a></li>
+                  <li><a href="#clamav">clamav</a></li>
+                  <li><a href="#Lynis">Lynis</a></li>
+                  <li><a href="#OWASP">OWASP ZAP</a></li>
+                  <li><a href="#Snort">Snort</a></li>
+                  <li><a href="#Suricata">Suricata</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav><!-- .nav-menu -->
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Accueil</a></li>
+          <li>Solutions</li>
+        </ol>
+        <h2>Solutions</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-12 entries">
+
+            <article class="entry" id="Lynis">
+
+              <div class="entry-img">
+                <img src="assets/img/blog/lynis-log.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="https://cisofy.com/lynis/" target="_blank">Lynis</a>
+              </h2>
+              <div class="entry-content">
+                <p>
+                  Lynis est un outil fiable pour la sécurité informatique qui fonctionne sur les plateforme
+                  Linux, macOS ou d'autres systèmes d'exploitation basés sur Unix. Cet outil scanne en détails un système
+                  informatique à la recherche de vulnérabilité afin d'améliorer sa sécurité. Ce projet est
+                  open source avec la licence GPL et est accessible depuis 2007. <br>
+                  <h4><b><p>Installation</p></b></h4>
+                  Lynis peut être utilisé sur Mac ou Linux. Ce programme permet d’effectuer des audits de système. Il teste si l’ordinateur peut empêcher qu’un logiciel malveillant ou autre rentre dans le système de l’ordinateur. Il teste également la détection de vulnérabilités et la sécurité du système.  
+
+                  Installation 
+
+                  Pour installer lynis sur votre ordinateur vous avez deux méthodes. La première est d’installer à l’aide de github avec le lien suivant : <b> <a href="https://github.com/CISOfy/lynis" target="blank">Link</a></b> . <br> Cliquer sur Code en vert qui va installer le code nécessaire sur votre ordinateur. Sur le terminal de votre ordinateur, créer un clone de ce code en tapant : <b> <i>git clone https://github.com/CISOfy/lynis</i></b>. Puis exécuter ce code en tapant sur le terminal, cd lynis; ./lynis audit system. Vous pouvez également exécuter le code en tant que root. 
+
+                  Sinon sur votre machine Linux, en prenant en compte que votre système est soit un système Debian, soit Linux Mint, soit Ubuntu, soit un autre système se basant sur ces derniers, taper sur votre terminal : apt-get install lynis. Pour l’exécuter, tapez ./lynis. Pour effectuer des audits système, tapez : lynis audit system. 
+                </p>
+                
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" id="clamav">
+
+              <div class="entry-img">
+                <img src="assets/img/blog/clamav.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="https://www.clamav.net/" target="_blank">ClamAV</a>
+              </h2>
+
+              <div class="entry-content">
+                <p>
+                  ClamAV est un antivirusGPL pour UNIX. La principale qualité de cet antivirus est qu'il permet de balayer les 
+                  courriels reçus et envoyés avec un logiciel de messagerie classique. Le paquet que nous allons installer inclut 
+                  un démon multi-tâches flexible et configurable, un antivirus en ligne de commande et un utilitaire pour une mise 
+                  à jour automatique des définitions de virus via Internet. Le programme est basé sur une bibliothèque distribuée avec 
+                  le paquet ClamAV, que vous pouvez utiliser pour créer votre propre logiciel. Le plus important est que la base de 
+                  données des virus soit mise à jour. <br>
+                  <h4><b><p>Installation</p></b></h4>
+
+                  Vous pouvez télécharger via le lien suivant : <a href="https://www.clamav.net/download.html" target="blank">Lien</a>   <br>
+
+                  Pour un système d’exploitation Linux de type Ubuntu, tapez dans le terminal : apt-get install clamav. <br>
+
+                  Le lien précédent comporte des indications en plus pour un système d’exploitation Linux tels que Ubuntu ou encore Debian dans la catégorie Linux Packages. De même, pour les Mac vers le bas de la page. 
+                  
+                </p>
+                
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" id="Nessus">
+
+              <div class="entry-img">
+                <img src="assets/img/blog/nessus.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="https://www.tenable.com/downloads/nessus?loginAttempted=true" target="_blank">Nessus</a>
+              </h2>
+
+              <div class="entry-content">
+                <p>
+                  Nessus détecte les machines vivantes sur un réseau, 
+                  balaie les ports ouverts, identifie les services actifs, 
+                  leurs versions, puis tente diverses attaques. Cet outil permet 
+                  un audit de sécurité en s'appuyant sur deux éléments : un client 
+                  et un serveur. Le serveur, nessusd, est chargé de tester le système
+                   indiqué en essayant toutes les attaques que sa base contient, 
+                   pendant que le client, Nessus (qui n'est qu'une interface graphique),
+                   fait un rapport sur les différents résultats obtenus.<br>
+                   <h4><b><p>Installation</p></b></h4>
+                   Accédez à la page de téléchargements Nessus et récupérer le package d'installation d'Ubuntu. Nessus 8.13.1 est la version stable actuelle au moment de la rédaction de cet article. Vous pouvez simplement exécuter la commande ci-dessous pour 
+                   télécharger le programme d'installation de Nessus 8.13.1 Ubuntu : <br>
+                   <i> <b>
+                    curl -o Nessus-8.13.1-Ubuntu1110_amd64.deb <br> https://www.tenable.com/downloads/api/v1/public/pages/nessus/downloads/12207/download?i_agree_to_tenable_license_agreement=true&file_path=Nessus-8.13.1 
+                    -Ubuntu1110_amd64.deb 
+                   </i> </b><br>
+                   Ensuite, installez la version d'essai professionnelle de 
+                   Nessus sur Ubuntu 20.04 en exécutant la commande ci-dessous : <br>
+                   <b><i>apt install ./Nessus-8.13.1-Ubuntu1110_amd64.deb</i></b> <br>
+                   Démarrez et activez le service Nessus Professional pour qu'il s'exécute au démarrage du système.
+                   <br><b><i>systemctl enable --now nessusd</i></b>
+                </p>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry" id="OWASP">
+
+              <div class="entry-img">
+                <img src="assets/img/blog/owasp-logo.png" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="https://owasp.org/" target="blank">OWASP ZAP</a>
+              </h2>
+
+              <div class="entry-content">
+                <p>
+                  OWASP ZAP est un outil Java permettant de tester la sécurité des applications Web. 
+                  Il possède une interface graphique intuitive et de puissantes fonctionnalités permettant de fuzzing, de scripting, 
+                  de spidering, de proxy et d'attaque d'applications Web. Il est également extensible à travers un certain nombre de plugins. De cette manière, 
+                  il s'agit d'un outil de test d'applications Web tout-en-un. 
+                  OWASP ZAP pourrait même devenir votre outil de test d'applications Web une fois que vous aurez compris le principe.
+                  <h4><b><p>Installation</p></b></h4>
+
+                  Accédez à la page de téléchargements OWASP ZAP et récupérer le package d'installation d'Ubuntu. Ensuite exécuter la commande suivante : <b><i>sudo ./ZAP_2_10_0_unix.sh</i></b>  <br>
+
+                  La configuration de OWASP ZAP se fait en interface graphique, ainsi veuillez suivre les instructions pour poursuivre l’installation de OWASP ZAP. <br>
+
+                  Après installation, lancer OWASP ZAP. 
+                </p>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            
+
+          </div><!-- End blog entries list -->
+
+          
+
+        </div>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-12 entries">
+
+            <article class="entry" id="Snort">
+
+              <div class="entry-img">
+                <img src="assets/img/blog/snort-ubuntu.jpg.webp" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                Snort
+              </h2>
+              <div class="entry-content">
+                <p>
+                  Snort est un système de détection d'intrusion (ou NIDS) libre publié 
+                  sous licence GNU GPL. Il est capable d'effectuer aussi en temps réel des analyses de trafic et de logger les paquets sur un réseau IP. Il peut effectuer des analyses de protocole, recherche/correspondance de contenu et peut être utilisé pour détecter une grande variété d'attaques et de sondes comme des dépassements de buffers, scans, attaques 
+                  sur des CGI, sondes SMB, essai d'OS fingerprintings et bien plus. <br>
+                  <h4><b><p>Installation</p></b></h4>
+                  Snort est un IDS gratuit disponible dans sa version 2.2.20 (www.snort.org). A l'origine, 
+                  ce fut un sniffer qui connu une telle évolution qu'il fut vite adopté et utiliser dans le monde de la détection d'intrusion en s'appuyant sur une base de signature régulièrement enrichie par le "monde du libre". 
+                  Sous Linux (comme sous Windows) son installation est simple et 
+                  se résume (pour linux) par les commandes suivantes, une fois l'archive téléchargée dans le répertoire "/usr/local/snort". Ainsi, on effectue le lien entre snort et mysql afin d'utiliser une base de donnée pour la détection d'intrusion. L'outil sera alors bien plus riche et réactif. Il est possible d'utiliser d'autres solutions de bases de 
+                  données en renseignant les variables d'environnement correspondantes : <br>
+                  <i><b>
+                    --with-postgresql=$PATH_POSTGRE : pour une base PostegreSQL <br>
+
+                    --with-oracle=$ORACLE_HOME : pour une base Oracle <br>
+
+                    -with-odbc=$PATH_ODBC : pour une base de données Microsoft SQL server <br>
+                  </b></i>
+                  Afin d'indiquer à snort la base où il doit envoyer ses alertes, il convient de modifer 
+                  la ligne suivante, dans le fichier de configuration "snort.conf" : <br>
+                  <i><b>
+                    #output database:log,mysql,user=root password=test dbname=SNORT <br>  
+
+                    host=localhost <br>
+
+                    par <br>
+
+                    output database:log,mysql,user=user password=password dbname=snort <br>
+
+                    host=localhost <br>
+                  </b></i>
+                  Il est alors possible de lancer l'outil snort par la commande suivante, si nous voulons utiliser la base de données :
+                  <b><i>
+
+                  </i></b>
+                </p>
+                
+              </div>
+            </article><!-- End blog entry -->
+
+            <article class="entry" id="OWASP">
+
+              <div class="entry-img">
+                <img src="assets/img/blog/suricata-logo.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="https://suricata.io/download/" target="blank">Suricata</a>
+              </h2>
+
+              <div class="entry-content">
+                <p>
+                  Suricata est un logiciel open source de détection d'intrusion, 
+                  de prévention d'intrusion, et de supervision de sécurité réseau. 
+                  Il permet l'inspection des Paquets en Profondeur (DPI). De nombreux 
+                  cas d'utilisations déontologiques peuvent être mis en place permettant notamment
+                   la remontée d'informations qualitatives et quantitatives. 
+                  <h4><b><p>Installation</p></b></h4>
+
+                  L’installation de Suricata se fait en 3 étapes : <br>
+
+                  <h5>Etape 1 : Créer Atlantic.Net Cloud Server</h5>  
+
+                  Tout d'abord, connectez-vous à votre <a href="https://cloud.atlantic.net/?page=userlogin">Atlantic.Net Cloud Server</a>  . Créez un nouveau <a href="https://www.atlantic.net/vps-hosting/how-to-create-new-atlantic-net-cloud-server/">serveur</a> , en choisissant Ubuntu 20.04 comme système d'exploitation, avec au moins 2 Go de RAM. Connectez-vous à votre serveur Cloud via SSH et connectez-vous à l'aide des informations d'identification mises en évidence en haut de la page. Une fois que vous êtes connecté à votre serveur Ubuntu 20.04, exécutez la commande suivante pour mettre à jour votre système de base avec les derniers packages 
+                  disponibles : <b><i>apt-get update -y</i></b> <br>
+                  <h5>Etape 2 :  Installer les dépendances requises </h5> <br>
+                  Tout d'abord, vous devrez installer certaines dépendances nécessaires pour compiler Suricata à partir de la source. 
+                  Vous pouvez tous les installer avec la commande suivante : <br>
+                  <b><i>
+                    apt-get install rustc cargo make libpcre3 libpcre3-dbg 
+                    libpcre3-dev build-essential autoconf automake libtool libpcap-dev 
+                    libnet1-dev libyaml-0-2 libyaml-dev zlib1g zlib1g-dev libcap-ng-dev 
+                    libcap-ng0 
+                    make libmagic-dev libjansson-dev libjansson4 pkg-config -y
+                  </i></b><br>
+                  Par défaut, Suricata fonctionne comme un système de détection
+                   d'intrusion (IDS). Si vous souhaitez inclure la fonctionnalité 
+                   du système de prévention des intrusions (IPS), vous devrez installer d'autres packages sur votre système. 
+                  Vous pouvez les installer avec la commande suivante : 
+                  <br>
+                  <i><b>apt-get install libnetfilter-queue-dev libnetfilter-queue1 libnfnetlink-dev libnfnetlink0 -y </b></i> <br>
+                  Une fois tous les packages installés, vous devrez installer l'outil de mise à jour suricata pour mettre à jour les règles Suricata. 
+                  Vous pouvez l'installer avec les commandes suivantes : <br>
+                  <b><i>
+                    apt-get installer python3-pip <br>
+
+                    pip3 install --upgrade suricata-update <br>
+
+                    ln -s /usr/local/bin/suricata-update /usr/bin/suricata-update <br>
+                  </i></b>
+                   <h5>Etape 3 : Installer Suricata </h5>
+                   Tout d'abord, téléchargez la dernière version de Suricata depuis 
+                   leur site officiel avec la commande suivante : <br>
+                   <b><i>wget https :// www . openinfosecfoundation . org / téléchargement / suricata - 5.0.3 . goudron . gz </i></b> 
+                   <br>
+                   Une fois le téléchargement terminé, extrayez le fichier téléchargé avec la commande suivante : <br>
+                   <b><i>tar -xvzf suricata-5.0.3.tar.gz </i></b> <br>
+                   Ensuite, remplacez le répertoire par le répertoire extrait et 
+                   configurez-le avec la commande suivante : 
+                   <b><i>
+                    cd suricata-5.0.3 <br> 
+
+                    ./configure --enable-nfqueue --prefix=/usr --sysconfdir=/etc --localstatedir=/var <br>
+                   </i></b>
+                   Ensuite, installez le Suricata avec la commande suivante : <br>
+                   <b><i>
+                    make <br>
+
+                    make install-full 
+                   </i></b>
+
+ 
+                </p>
+              </div>
+
+            </article><!-- End blog entry -->
+
+
+            <article class="entry" id="OWASP">
+
+              <div class="entry-img">
+                <img src="assets/img/blog/legion1.png" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                  Legion
+              </h2>
+
+              <div class="entry-content">
+                <p>
+                  Legion est un outil graphique basé sur python open-source et 
+                  facile à utiliser qui peut aider dans les tests de  pénétration  
+                  du  réseau.  Legion  est  une  version  améliorée  de  Sparta.  
+                  Auparavant,  Sparta  était préinstallé avec Kali Linux, maintenant Kali a supprimé Sparta en raison de son ancienne version Python (Python2). Legion est très similaire à Sparte. Ce cadre de test de 
+                  pénétration de réseau semi-automatisé est installé avec Kali Linux. 
+                  <h4><b><p>Installation</p></b></h4>
+
+                  Pour  installer   les   composants   dockers  généralement 
+                  nécessaires   et   ajouter  la   configuration   de l'environnement 
+                  pour docker, sous un terme, on exécuteles commandes suivantes:Sudo apt-get legion
+                  <br>
+                  <b><i>
+                    sudo apt-get update <br> sudo apt-get install -y docker.io python-pip -y <br> sudo groupadd docker <br> pip install --user docker-compose 
+                  </i></b><br>
+                  Pour  installer   les   composants   dockers  généralement   nécessaires   et   ajouter  la configuration   de l'environnement pour la redirection docker, sous la fenêtre WSL, exécutez : <br>
+                  <b><i>
+                    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - <br> sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release cs) stable" <br> sudo apt-get update <br> sudo apt-get install -y docker-ce python-pip -y <br> sudo apt autoremove <br> sudo usermod -aG docker $USER <br> pip install --user docker-compose <br> echo "export DOCKER_HOST=tcp://localhost:2375" >> ~/.bashrc && source ~/.bashrc
+                  </i></b>
+                </p>
+              </div>
+
+            </article><!-- End blog entry -->
+          </div>
+        </div>
+      </div>   
+      
+    </div>
+    </section><!-- End Blog Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Anti-Robo</h3>
+            <p>
+              30-32 avenue de la république, <br>
+              Villejuif 94800<br>
+              France <br><br>
+              <strong>Phone:</strong> +33 6 59 88 46 33<br>
+              <strong>Email:</strong> info@anti-robo.fr<br>
+            </p>
+          </div>
+
+          
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Rejoignez notre Newsletter</h4>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="souscrire">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Anti-Robo</span></strong>. All Rights Reserved
+        </div>
+        
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
